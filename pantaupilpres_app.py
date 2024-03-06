@@ -1349,4 +1349,4 @@ with tab4:
 #buat garis horizontal
 # -----------------------------------------------------------------------------------------------
 st.markdown("""---""")
-st.write(f"""<p style="margin-top: -35px; font-size: 16px;"> <span style="float: left;" > 2024 ©. All rights reserved.</span> <span style="float: right;"> Developed by IT Data Riset and Development Surabaya - Nizar.</span></p>""", unsafe_allow_html=True)
+st.write(f"""<p style="margin-top: -35px; font-size: 16px;"> <span style="float: left;" > 2024 ©. All rights reserved.</span> <span style="float: right;"> Developed by IT Data Riset and Development Surabaya - N124r.</span></p>""", unsafe_allow_html=True)
