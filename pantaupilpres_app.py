@@ -364,9 +364,9 @@ def compare(id,tingkat):
 
 # Fungsi untuk menambahkan warna baris berdasarkan kondisi
 def row_color(row):
-    color = '#a0f3b5' if row['info_kawal'] == '🟩1️⃣' else \
-            '#f3cba0' if row['info_kawal'] == '🟧2️⃣' else \
-            '#f3a0ab' if row['info_kawal'] == '🟥3️⃣' else '#e3e3e3'
+    color = '#a0f3b5' if row['hasil_kawal'] == '✔️ sesuai' else \
+            '#f3cba0' if row['hasil_kawal'] == '⏳ belum dikawal' else \
+            '#f3a0ab' if row['hasil_kawal'] == '❌ tidak sesuai' else '#e3e3e3'
     
     return [f'background-color: {color}'] * len(row)
 
@@ -375,9 +375,9 @@ def row_color1(row):
     if row['name'] == 'LUAR NEGERI':
         color = '#d5cef7'
     else:
-        color = '#a0f3b5' if row['info_kawal'] == '🟩1️⃣' else \
-                '#f3cba0' if row['info_kawal'] == '🟧2️⃣' else \
-                '#f3a0ab' if row['info_kawal'] == '🟥3️⃣' else '#e3e3e3'
+        color = '#a0f3b5' if row['hasil_kawal'] == '✔️ sesuai' else \
+                '#f3cba0' if row['hasil_kawal'] == '⏳ belum dikawal' else \
+                '#f3a0ab' if row['hasil_kawal'] == '❌ tidak sesuai' else '#e3e3e3'
         
     return [f'background-color: {color}'] * len(row)
 
